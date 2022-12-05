@@ -34,8 +34,8 @@ pinMode(in3, OUTPUT); // declare as output for L298 Pin in3
 pinMode(in4, OUTPUT); // declare as output for L298 Pin in4 
 pinMode(enB, OUTPUT); // declare as output for L298 Pin enB 
 
-analogWrite(enA, 190); // Write The Duty Cycle 0 to 255 Enable Pin A for Motor1 Speed 
-analogWrite(enB, 190); // Write The Duty Cycle 0 to 255 Enable Pin B for Motor2 Speed 
+analogWrite(enA, 200); // Write The Duty Cycle 0 to 255 Enable Pin A for Motor1 Speed 
+analogWrite(enB, 200); // Write The Duty Cycle 0 to 255 Enable Pin B for Motor2 Speed 
 
 pinMode(servo, OUTPUT);
 
@@ -103,7 +103,7 @@ void compareDistance(){
   forword();
   delay(600);
   turnRight();
-  delay(500);
+  delay(600);
   forword();
   delay(800);
   turnRight();
@@ -115,7 +115,7 @@ void compareDistance(){
   forword();
   delay(600);
   turnLeft();
-  delay(500);
+  delay(600);
   forword();
   delay(800);  
   turnLeft();
