@@ -103,11 +103,11 @@ void compareDistance(){
   forword();
   delay(600);
   turnRight();
-  delay(600);
+  delay(500);
   forword();
-  delay(800);
+  delay(600);
   turnRight();
-  delay(300);
+  delay(400);
   }
   else{
   turnRight();
@@ -115,11 +115,11 @@ void compareDistance(){
   forword();
   delay(600);
   turnLeft();
-  delay(600);
+  delay(500);
   forword();
-  delay(800);  
+  delay(600);  
   turnLeft();
-  delay(300);
+  delay(400);
   }
 }
 
